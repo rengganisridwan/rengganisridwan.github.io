@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Bagian 1. Induktor - Dokumentasi</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Bagian 1. Induktor";
+    var mkdocs_page_input_path = "elektromagnetika\\1-induktor.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Dokumentasi</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Biofisika</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../biofisika/1-berkenalan/">Bagian 1. Berkenalan</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../biofisika/2-aturan/">Bagian 2. Aturan</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Elektromagnetika</span>
+    <ul class="subnav">
+                <li class=" current">
+                    
+    <a class="current" href="./">Bagian 1. Induktor</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#pendahuluan">Pendahuluan</a></li>
+    
+
+    <li class="toctree-l3"><a href="#elektromagnetisme">Elektromagnetisme</a></li>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Dokumentasi</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Elektromagnetika &raquo;</li>
+        
+      
+    
+    <li>Bagian 1. Induktor</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/rengganisridwan/dokumentasi-tf/edit/master/docs/elektromagnetika/1-induktor.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="pendahuluan">Pendahuluan</h2>
+<p>Ketika terdapat suatu istilah yang tampak asing, hal pertama yang sebaiknya dilakukan adalah memahami definisi dari istilah tersebut. Memahami definisi ibarat membangun fondasi yang kokoh dalam suatu struktur. Ketika fondasi dibangun dengan baik, struktur yang ditopang tidak akan mudah roboh. Untuk membangun fondasi yang baik, diperlukan pula pemahaman atas segala komponen penyusun fondasi tersebut, seperti dalam pemilihan jenis batuan, jenis tanah, dimensi dari fondasi, serta berbagai komponen penyusun lain. Tentu dalam pembuatan fondasi, segala komponen tersebut dipilih dengan pertimbangan tertentu sehingga selain kokoh, fondasi tersebut juga efisien. </p>
+<p>Penemuan terkait interaksi antara listrik dan magnet bermula pada tahun 1820. Terdapat dua interaksi yang muncul: arus menghasilkan medan magnet dan arus yang bergerak dalam suatu medan listrik memiliki suatu gaya [1]. Induktor merupakan sebuah komponen pasif dalam rangkaian listrik yang bertugas menyimpan energi dalam bentuk medan magnet. Berbagai sub-bagian setelah ini berisi tentang bagaimana berbagai konsep tersebut membentuk suatu fenomena yang menjadi dasar dari mekanisme induktor.</p>
+<h2 id="elektromagnetisme">Elektromagnetisme</h2>
+<p>Bayangkan terdapat dua buah magnet batang, yaitu magnet A dan magnet B. Kemudian kedua magnet tersebut diposisikan berjajar dalam satu garis lurus dengan jarak awal 30 cm. Ketika kedua magnet didekatkan sehingga jarak di antara mereka perlahan berkurang, akan muncul interaksi pada kedua magnet tersebut. Tentu interaksi yang muncul dipengaruhi oleh orientasi dari magnet tersebut. Pada sebuah magnet batang, terdapat dua buah kutub: utara dan selatan (pada dasarnya, semua magnet selalu memiliki dua buah kutub). Kedua kutub dalam magnet selalu berinteraksi, meskipun kutub yang berinteraksi berasal dari dua buah magnet yang berbeda. Jika kutub utara dari magnet A berhadapan dengan kutub selatan magnet B, maka kedua magnet akan berinteraksi dengan saling tarik menarik. Interaksi yang sama juga terjadi ketika kutub selatan dari magnet A berhadapan dengan kutub utara dari magnet B. Namun, jika kedua sisi pada magnet yang saling berhadapan memiliki kutub yang sama, maka interaksi yang muncul justru tolak menolak. Ketika kedua kutub yang berhadapan adalah kutub utara maupun selatan, interaksi yang terjadi selalu sama: tolak menolak. Dengan begitu, dapat disimpulkan bahwa selama kedua kutub pada magnet A dan magnet B berbeda, interaksi yang terjadi adalah tarik menarik. Di sisi lain, selama kedua kutub pada magnet A dan magnet B sama, interaksi yang terjadi adalah tolak menolak. Seorang engineer akan bertanya terkait dengan interaksi dari kedua magnet tersebut tentang seberapa kuat magnet yang digunakan. Apakah pada jarak 30 cm benar-benar tidak ada interaksi pada magnet A maupun magnet B? </p>
+<p>Jika diamati dengan seksama, maka interaksi dari dua buah magnet dipengaruhi oleh beberapa variabel. Diketahui bahwa interaksi pada magnet A dan magnet B akan semakin lemah seiring dengan bertambahnya jarak di antaranya. Jika kekuatan dari magnet tersebut dapat dipetakan untuk tiap koordinat titik, maka akan didapatkan suatu distribusi nilai yang mewakili kekuatan dari magnet pada setiap koordinat titik yang terkait. Hal tersebut disebut sebagai medan. Medan adalah suatu besaran fisika yang memiliki nilai berbeda pada koordinat titik yang berbeda dalam suatu ruang berdimensi [2]. Terdapat dua jenis medan: medan vektor dan medan skalar. Nilai di setiap koordinat titik pada medan vektor terdiri dari besar dan arah, sedangkan medan skalar hanya terdiri dari besarnya saja. Contoh dari medan skalar adalah medan temperatur pada suatu ruangan. Medan magnet termasuk dalam medan vektor, di mana garis-garis medan magnet selalu membentuk lintasan dari kutub utara menuju kutub selatan. Medan magnet disimbolkan dengan variabel B. Variabel yang dicetak tebal menandakan bahwa variabel tersebut merupakan sebuah vektor.</p>
+<p>Medan listrik E adalah medan yang dihasilkan oleh suatu muatan. Terdapat dua jenis muatan: muatan positif dan muatan negatif. Muatan positif memiliki arah medan keluar dari muatan, sedangkan muatan negatif memiliki arah medan masuk ke dalam muatan. Sebagai analogi, muatan positif dapat dibayangkan seperti sumber fluida yang memancarkan fluidanya keluar, sedangkan muatan negatif adalah suatu lubang yang siap menyedot fluida yang ada di dekatnya. Jika terdapat dua buah muatan diletakkan terpisah pada jarak tertentu, maka akan ada interaksi berupa gaya yang sebanding dengan besar kedua muatan dan berbanding terbalik dengan kuadrat jaraknya [3]. </p>
+<p>Jika muatan berada pada suatu medan listrik maupun medan magnet, maka muatan tersebut akan dipengaruhi oleh suatu gaya yang besarnya dipengaruhi oleh posisi, besar, dan kecepatan dari muatan tersebut [4]. Jika terdapat muatan sebesar q bergerak dengan kecepatan v, maka gaya F yang dirasakan oleh muatan tersebut dapat didefinisikan secara matematis oleh Persamaan (1.1) [5]. 1</p>
+<p>When <script type="math/tex">a \ne 0</script>, there are two solutions to <script type="math/tex">ax^2 + bx + c = 0</script> and they are
+<script type="math/tex; mode=display">x = {-b \pm \sqrt{b^2-4ac} \over 2a}.</script>
+</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../../biofisika/2-aturan/" class="btn btn-neutral" title="Bagian 2. Aturan"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/rengganisridwan/dokumentasi-tf/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../../biofisika/2-aturan/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>
